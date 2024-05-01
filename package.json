@@ -1,0 +1,19 @@
+{
+  "name": "react-swiggy",
+  "version": "1.0.0",
+  "description": "react new project ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isLalitActive/React-Project-1.git"
+  },
+  "author": "Lalit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isLalitActive/React-Project-1/issues"
+  },
+  "homepage": "https://github.com/isLalitActive/React-Project-1#readme"
+}
