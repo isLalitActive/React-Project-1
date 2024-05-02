@@ -24,7 +24,23 @@ const Message = () => (
   </div>
 );
 
+const element = <span>This is a React Element</span>;
+
+const heading = (
+  <div className="heading-container">
+    {element}
+    <h1>This is React Element as well</h1>
+  </div>
+);
+
+const HeadingComponent = () => (
+  <div className="heading-component-container">
+    {heading}
+    <h1>This is HeadingComponent</h1>
+  </div>
+);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root-container"));
 
-root.render(<Message />);
+root.render(<HeadingComponent />);
