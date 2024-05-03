@@ -41,6 +41,6 @@ const HeadingComponent = () => (
 );
 
 
-const root = ReactDOM.createRoot(document.getElementById("root-container"));
+// const root = ReactDOM.createRoot(document.getElementById("root-container"));
 
-root.render(<HeadingComponent />);
+// root.render(<HeadingComponent />);
