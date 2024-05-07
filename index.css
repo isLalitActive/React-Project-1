@@ -6,7 +6,8 @@
 }
 
 .logo {
-    width: 100px;
+    width: 210px;
+    padding: 10px;
 }
 
 .nav-container {
@@ -30,10 +31,10 @@
 
 .res-card {
     background-color: bisque;
-    border: 1px solid black;
     width: 200px;
     height: 350px;
     padding: 13px;
+    margin: 10px;
 }
 
 .search {
@@ -42,4 +43,13 @@
 
 .res-logo {
     width: 190px;
+}
+
+.res-container {
+    display: flex;
+}
+
+.res-container > :hover {
+    border: 1px solid black;
+    cursor: pointer;
 }

@@ -24,7 +24,7 @@ const Header = () => {
       <div className="logo-container">
         <img
           className="logo"
-          src="https://img.spoonacular.com/ingredients_100x100/apple.jpg"
+          src="https://www.nrn.com/sites/nrn.com/files/styles/article_featured_retina/public/plant-based%20protein.jpg?itok=aDfgI_8Z"
         />
       </div>
       <div className="nav-container">
@@ -51,7 +51,9 @@ const RestaurantCard = () => {
         alt="food-image"
         src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597"
       ></img>
-      <h3>Meghna Foods</h3>
+      <h3>Chinese Wok</h3>
+      <h4>Chinese, Indian </h4>
+      <h4>4.4</h4>
     </div>
   );
 };
@@ -61,6 +63,11 @@ const Body = () => {
     <div className="body-container">
       <div className="search">Search</div>
       <div className="res-container">
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
         <RestaurantCard />
       </div>
     </div>
