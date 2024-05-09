@@ -767,10 +767,10 @@ const resList = [
   },
 ];
 
-const RestaurantCard = ({resDetails}) => {
-  console.log(resDetails.info);
+const RestaurantCard = ({ resDetails }) => {
+  console.log(resDetails);
   const { name, cloudinaryImageId, costForTwo, cuisines, avgRating } =
-  resDetails.info;
+    resDetails;
 
   return (
     <div className="res-card">
@@ -795,8 +795,12 @@ const Body = () => {
     <div className="body-container">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurantCard resDetails={resList[0]} />
-        <RestaurantCard resDetails={resList[1]} />
+        {resList.map((restaurant) => (
+          <RestaurantCard
+            key={restaurant.info.id}
+            resDetails={restaurant.info}
+          />
+        ))}
       </div>
     </div>
   );
