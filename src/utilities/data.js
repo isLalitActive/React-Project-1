@@ -1,724 +1,657 @@
 const resList = [
   {
-    info: {
-      id: "10576",
-      name: "Pizza Hut",
-      cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
-      locality: "Koramangala",
-      areaName: "Koramangala",
-      costForTwo: "₹350 for two",
-      cuisines: ["Pizzas"],
-      avgRating: 4.1,
-      parentId: "721",
-      avgRatingString: "4.1",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 41,
-        lastMileTravel: 1.1,
-        serviceability: "SERVICEABLE",
-        slaString: "40-45 mins",
-        lastMileTravelString: "1.1 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 04:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/pizza-hut-koramangala-bangalore-10576",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-  },
-  {
-    info: {
-      id: "780134",
-      name: "MOJO Pizza - 2X Toppings",
-      cloudinaryImageId: "1a24dadf4ef47acd7f30911c3ae6f4de",
-      locality: "1ST MAIN, JAKKASANDRA",
-      areaName: "KORAMANGALA",
-      costForTwo: "₹250 for two",
-      cuisines: ["Pizzas", "Italian", "Fast Food", "Desserts"],
-      avgRating: 4.4,
-      parentId: "11329",
-      avgRatingString: "4.4",
-      totalRatingsString: "50+",
-      sla: {
-        deliveryTime: 35,
-        lastMileTravel: 0.9,
-        serviceability: "SERVICEABLE",
-        slaString: "30-40 mins",
-        lastMileTravelString: "0.9 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 00:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      isNewlyOnboarded: true,
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/mojo-pizza-2x-toppings-1st-main-jakkasandra-koramangala-bangalore-780134",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-  },
-  {
-    info: {
-      id: "23786",
-      name: "Domino's Pizza",
-      cloudinaryImageId: "d0450ce1a6ba19ea60cd724471ed54a8",
-      locality: "4th Block",
-      areaName: "Koramangala",
-      costForTwo: "₹400 for two",
-      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
-      avgRating: 4.4,
-      parentId: "2456",
-      avgRatingString: "4.4",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 30,
-        lastMileTravel: 0.5,
-        serviceability: "SERVICEABLE",
-        slaString: "30 mins",
-        lastMileTravelString: "0.5 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 02:59:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Pizza.png",
-            description: "Delivery!",
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "330564",
+          name: "Northwest Kebab & Curryhouse",
+          cloudinaryImageId: "2c65c309b08b5b2411fc722fd6c9704a",
+          locality: "Koramangala",
+          areaName: "Koramangala",
+          costForTwo: "₹500 for two",
+          cuisines: ["Indian", "North Indian", "Mughlai"],
+          avgRating: 4.3,
+          parentId: "150216",
+          avgRatingString: "4.3",
+          totalRatingsString: "500+",
+          promoted: true,
+          adTrackingId:
+            "cid=13356433~p=0~adgrpid=13356433#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=330564~eid=60e9bb99-6a4e-4a75-8279-88cc13a15cee~srvts=1715355091199~collid=83645",
+          sla: {
+            deliveryTime: 56,
+            lastMileTravel: 1.5,
+            serviceability: "SERVICEABLE",
+            slaString: "55-60 mins",
+            lastMileTravelString: "1.5 km",
+            iconType: "ICON_TYPE_EMPTY",
           },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
+          availability: {
+            nextCloseTime: "2024-05-10 23:30:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
               {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Pizza.png",
-                },
+                imageId: "newg.png",
+                description: "Gourmet",
               },
             ],
           },
-          textBased: {},
-          textExtendedBadges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      imageId: "newg.png",
+                      description: "Gourmet",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+              textBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "₹100 OFF",
+            subHeader: "ABOVE ₹499",
+            discountTag: "FLAT DEAL",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.5",
+              ratingCount: "100+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹150 OFF",
-        subHeader: "ABOVE ₹299",
-        discountTag: "FLAT DEAL",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=330564&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
         },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
     },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/dominos-pizza-4th-block-koramangala-bangalore-23786",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    info: {
-      id: "18973",
-      name: "Nandhana Palace",
-      cloudinaryImageId: "195876a3181ef63f76e45e3a7b49b585",
-      locality: "Koramangala",
-      areaName: "Koramangala",
-      costForTwo: "₹500 for two",
-      cuisines: ["Biryani", "Andhra", "South Indian", "North Indian"],
-      avgRating: 4.2,
-      parentId: "2120",
-      avgRatingString: "4.2",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 33,
-        lastMileTravel: 1,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "1.0 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 02:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Biryani.png",
-            description: "Delivery!",
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "56718",
+          name: "Tapri By The Corner",
+          cloudinaryImageId: "qkqilt3jv17o7xs8ljfb",
+          locality: "Koramangala",
+          areaName: "Koramangala",
+          costForTwo: "₹250 for two",
+          cuisines: ["Chinese", "Snacks", "Indian"],
+          avgRating: 4.2,
+          parentId: "201148",
+          avgRatingString: "4.2",
+          totalRatingsString: "1K+",
+          promoted: true,
+          adTrackingId:
+            "cid=13348958~p=1~adgrpid=13348958#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=56718~eid=45f98e1c-3a37-4b3f-8252-7f43797c298c~srvts=1715355091199~collid=83645",
+          sla: {
+            deliveryTime: 42,
+            lastMileTravel: 1.4,
+            serviceability: "SERVICEABLE",
+            slaString: "40-45 mins",
+            lastMileTravelString: "1.4 km",
+            iconType: "ICON_TYPE_EMPTY",
           },
-        ],
+          availability: {
+            nextCloseTime: "2024-05-10 22:00:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {},
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "60% OFF",
+            subHeader: "UPTO ₹115",
+            discountCalloutInfo: {
+              message: "Free Delivery",
+              logoCtx: {
+                logo: "v1655895371/free_delivery_logo_hqipbo.png",
+              },
+            },
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.1",
+              ratingCount: "100+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=56718&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "577800",
+          name: "ITC Aashirvaad Soul Creations",
+          cloudinaryImageId: "e97d6ff1edd59fcdf71f351a9f3a666d",
+          locality: "7th Block",
+          areaName: "Koramangala",
+          costForTwo: "₹500 for two",
+          cuisines: ["Indian", "Home Food", "Healthy Food"],
+          avgRating: 4.5,
+          veg: true,
+          parentId: "346141",
+          avgRatingString: "4.5",
+          totalRatingsString: "500+",
+          promoted: true,
+          adTrackingId:
+            "cid=13300371~p=2~adgrpid=13300371#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=577800~eid=d06295f9-66c3-453f-8e21-37a1426f25a3~srvts=1715355091199~collid=83645",
+          sla: {
+            deliveryTime: 58,
+            lastMileTravel: 2.4,
+            serviceability: "SERVICEABLE",
+            slaString: "55-60 mins",
+            lastMileTravelString: "2.4 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2024-05-11 00:00:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
               {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Biryani.png",
-                },
+                imageId: "v1695133679/badges/Pure_Veg111.png",
+                description: "pureveg",
               },
             ],
           },
-          textBased: {},
-          textExtendedBadges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      imageId: "v1695133679/badges/Pure_Veg111.png",
+                      description: "pureveg",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "₹125 OFF",
+            subHeader: "ABOVE ₹249",
+            discountTag: "FLAT DEAL",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         },
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=577800&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
         },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
     },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/nandhana-palace-koramangala-bangalore-18973",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    info: {
-      id: "656392",
-      name: "Subway",
-      cloudinaryImageId:
-        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/9/e0ab56c3-3d8e-4214-8705-240795d737c0_656392.jpg",
-      locality: "1st Block",
-      areaName: "Koramangala",
-      costForTwo: "₹350 for two",
-      cuisines: ["Salads", "Snacks", "Desserts", "Beverages"],
-      avgRating: 4.2,
-      parentId: "2",
-      avgRatingString: "4.2",
-      totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 28,
-        lastMileTravel: 0.8,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "0.8 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 03:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Sandwiches.png",
-            description: "Delivery!",
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "221",
+          name: "Luckhnow Street",
+          cloudinaryImageId: "zjrznitw3mcizggcg4kk",
+          locality: "5th block",
+          areaName: "Koramangala",
+          costForTwo: "₹300 for two",
+          cuisines: [
+            "North Indian",
+            "Lucknowi",
+            "Awadhi",
+            "Biryani",
+            "Barbecue",
+          ],
+          avgRating: 4.2,
+          parentId: "437646",
+          avgRatingString: "4.2",
+          totalRatingsString: "10K+",
+          promoted: true,
+          adTrackingId:
+            "cid=13359170~p=3~adgrpid=13359170#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=221~eid=3d4bc98c-6f4b-483f-8235-1df681ff949f~srvts=1715355091199~collid=83645",
+          sla: {
+            deliveryTime: 55,
+            lastMileTravel: 1.9,
+            serviceability: "SERVICEABLE",
+            slaString: "50-55 mins",
+            lastMileTravelString: "1.9 km",
+            iconType: "ICON_TYPE_EMPTY",
           },
-        ],
+          availability: {
+            nextCloseTime: "2024-05-10 23:59:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {},
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "30% OFF",
+            subHeader: "UPTO ₹75",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=221&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "437907",
+          name: "Gopaljee Cafe",
+          cloudinaryImageId: "rp5nc2bsvkpvy1ts8vug",
+          locality: "Koramangala",
+          areaName: "Koramangala",
+          costForTwo: "₹350 for two",
+          cuisines: ["North Indian", "Snacks", "Beverages"],
+          avgRating: 4.3,
+          veg: true,
+          parentId: "89083",
+          avgRatingString: "4.3",
+          totalRatingsString: "1K+",
+          promoted: true,
+          adTrackingId:
+            "cid=13356688~p=4~adgrpid=13356688#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=437907~eid=ee8acf0e-85ec-4177-aceb-7a5e3fd82d34~srvts=1715355091199~collid=83645",
+          sla: {
+            deliveryTime: 60,
+            lastMileTravel: 2.5,
+            serviceability: "SERVICEABLE",
+            slaString: "55-60 mins",
+            lastMileTravelString: "2.5 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2024-05-10 23:00:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {},
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "20% OFF",
+            subHeader: "ABOVE ₹700",
+            discountTag: "FLAT DEAL",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.5",
+              ratingCount: "100+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=437907&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "425",
+          name: "Hotel Empire",
+          cloudinaryImageId: "un4omn7rcunkmlw6vikr",
+          locality: "Koramangala",
+          areaName: "Koramangala",
+          costForTwo: "₹450 for two",
+          cuisines: ["North Indian", "Kebabs", "Biryani"],
+          avgRating: 4.3,
+          parentId: "475",
+          avgRatingString: "4.3",
+          totalRatingsString: "10K+",
+          sla: {
+            deliveryTime: 53,
+            lastMileTravel: 2.3,
+            serviceability: "SERVICEABLE",
+            slaString: "50-55 mins",
+            lastMileTravelString: "2.3 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2024-05-11 03:00:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
               {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Sandwiches.png",
-                },
+                imageId: "Rxawards/_CATEGORY-North%20Indian.png",
+                description: "Delivery!",
               },
             ],
           },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹149",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/subway-1st-block-koramangala-bangalore-656392",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-  },
-  {
-    info: {
-      id: "240148",
-      name: "Gudbud",
-      cloudinaryImageId: "ezkvppoifkkmfebdqydh",
-      locality: "Ejipura",
-      areaName: "Koramangala",
-      costForTwo: "₹300 for two",
-      cuisines: ["Ice Cream", "Desserts"],
-      avgRating: 4.5,
-      parentId: "11110",
-      avgRatingString: "4.5",
-      totalRatingsString: "5K+",
-      sla: {
-        deliveryTime: 29,
-        lastMileTravel: 0.6,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "0.6 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 04:00:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "Ratnesh_Badges/test2.png",
-            shortDescription: "Perfect ice cream delivery",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "Ratnesh_Badges/test2.png",
-                  shortDescription: "Perfect ice cream delivery",
-                },
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      description: "Delivery!",
+                      imageId: "Rxawards/_CATEGORY-North%20Indian.png",
+                    },
+                  },
+                ],
               },
-            ],
+              textExtendedBadges: {},
+            },
           },
+          aggregatedDiscountInfoV3: {
+            header: "10% OFF",
+            subHeader: "ABOVE ₹500",
+            discountTag: "FLAT DEAL",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.1",
+              ratingCount: "100+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         },
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=425&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
         },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
     },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/gudbud-ejipura-koramangala-bangalore-240148",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    info: {
-      id: "269402",
-      name: "The Tea Brewery",
-      cloudinaryImageId: "v4s7ectlujr8325ejrnc",
-      locality: "1st Block",
-      areaName: "Koramangala",
-      costForTwo: "₹100 for two",
-      cuisines: [
-        "Beverages",
-        "Snacks",
-        "Bakery",
-        "Desserts",
-        "Fast Food",
-        "Chaat",
-        "Healthy Food",
-      ],
-      avgRating: 4.6,
-      parentId: "21147",
-      avgRatingString: "4.6",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 35,
-        lastMileTravel: 0.7,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "0.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 00:00:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "142398",
+          name: "Thoda Aur",
+          cloudinaryImageId: "zdo7e061agg4jqdrqmja",
+          locality: "Nirguna Mandir Layout",
+          areaName: "Koramangala",
+          costForTwo: "₹300 for two",
+          cuisines: ["North Indian", "Bihari", "Maharashtrian"],
+          avgRating: 4.1,
+          veg: true,
+          parentId: "215869",
+          avgRatingString: "4.1",
+          totalRatingsString: "500+",
+          sla: {
+            deliveryTime: 45,
+            lastMileTravel: 0.5,
+            serviceability: "SERVICEABLE",
+            slaString: "45-50 mins",
+            lastMileTravelString: "0.5 km",
+            iconType: "ICON_TYPE_EMPTY",
           },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
+          availability: {
+            nextCloseTime: "2024-05-10 23:00:00",
+            opened: true,
           },
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹150 OFF",
-        subHeader: "ABOVE ₹399",
-        discountTag: "FLAT DEAL",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-tea-brewery-1st-block-koramangala-bangalore-269402",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-  },
-  {
-    info: {
-      id: "229398",
-      name: "Sinful Desserts",
-      cloudinaryImageId: "a33e4b8f95de51a4bf5639b226e69ca2",
-      locality: "Koramangala",
-      areaName: "Koramangala",
-      costForTwo: "₹300 for two",
-      cuisines: [
-        "Bakery",
-        "Desserts",
-        "Beverages",
-        "European",
-        "Ice Cream",
-        "Juices",
-        "Waffle",
-        "Sweets",
-      ],
-      avgRating: 4.2,
-      parentId: "11311",
-      avgRatingString: "4.2",
-      totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 33,
-        lastMileTravel: 1.5,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "1.5 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-09 05:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "30% OFF",
-        subHeader: "UPTO ₹75",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/sinful-desserts-koramangala-bangalore-229398",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-  },
-  {
-    info: {
-      id: "430368",
-      name: "Kebapci",
-      cloudinaryImageId: "82cee87165a12942080a2df5a3b46fb9",
-      locality: "Koramangala",
-      areaName: "Koramangala",
-      costForTwo: "₹600 for two",
-      cuisines: ["Turkish", "Middle Eastern", "Lebanese"],
-      avgRating: 4.3,
-      parentId: "17445",
-      avgRatingString: "4.3",
-      totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 36,
-        lastMileTravel: 1.4,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "1.4 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-05-08 23:59:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "newg.png",
-            description: "Gourmet",
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {},
+              textExtendedBadges: {},
+            },
           },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Gourmet",
-                  imageId: "newg.png",
-                },
-              },
-            ],
+          aggregatedDiscountInfoV3: {
+            header: "20% OFF",
+            subHeader: "UPTO ₹120",
           },
-          textBased: {},
-          textExtendedBadges: {},
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "10% OFF",
-        subHeader: "ABOVE ₹1000",
-        discountTag: "FLAT DEAL",
-      },
-      orderabilityCommunication: {
-        title: {},
-        subTitle: {},
-        message: {},
-        customIcon: {},
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=142398&source=collection&query=North%20Indian",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
         },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
     },
-    analytics: {
-      context: "seo-data-e3bf2509-baf2-43da-b1b5-8d6de23557cb",
-    },
-    cta: {
-      link: "https://www.swiggy.com/restaurants/kebapci-koramangala-bangalore-430368",
-      text: "RESTAURANT_MENU",
-      type: "WEBLINK",
-    },
-    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];
 
