@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [resListDetails, setResListDetails] = useState([]);
+  const [searchItem, setSearchItem] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -24,6 +25,29 @@ const Body = () => {
 
   return (
     <div className="body-container">
+      <div className="search-container">
+        <input
+          type="text"
+          className="search-input"
+          value={searchItem}
+          onChange={(e) => {
+            setSearchItem(e.target.value);
+          }}
+        ></input>
+        <button
+          className="search-btn"
+          onClick={() => {
+            const filtered = resListDetails.filter((item) => {
+              return item.info.name
+                .toLowerCase()
+                .includes(searchItem.toLowerCase());
+            });
+            setResListDetails(filtered);
+          }}
+        >
+          Search
+        </button>
+      </div>
       <button
         className="filter-btn"
         onClick={() => {

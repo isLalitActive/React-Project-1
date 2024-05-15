@@ -2,7 +2,7 @@
   "name": "react-swiggy",
   "version": "1.0.0",
   "description": "react new project ",
-    "scripts": {
+  "scripts": {
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   }
 }

@@ -68,3 +68,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.search-container {
+    margin: 10px;
+}
+
+.error-page {
+    display: grid;
+    place-items: center;
+}
