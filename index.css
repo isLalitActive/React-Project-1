@@ -77,3 +77,21 @@
     display: grid;
     place-items: center;
 }
+
+.restaurantMenu-container {
+    width: 40%;
+    background-color: #30cccf;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurantMenu-container-wrapper {
+    /* background-color: rgb(230, 251, 202); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
