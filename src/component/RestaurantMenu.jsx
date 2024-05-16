@@ -18,16 +18,25 @@ const RestaurantMenu = () => {
     setResMenu(json?.data?.cards[2]?.card?.card.info);
   };
 
+  const {
+    name,
+    avgRating,
+    costForTwoMessage,
+    areaName,
+    sla,
+    cuisines,
+  } = resMenu;
+
   return (
     <div className="restaurantMenu-container-wrapper">
-        {console.log('RENDERING')}
+      {console.log("RENDERING")}
       <div className="restaurantMenu-container">
-        <h1>Restaurant Name: {resMenu.name}</h1>
-        <p>Rating: {resMenu.avgRating}</p>
-        <h2>Cost for Two: {resMenu.costForTwoMessage}</h2>
-        <h3>Location: {resMenu.areaName}</h3>
-        <h3>Delivery Time: {resMenu.deliveryTime}</h3>
-        <h3>Cuisines: {resMenu.cuisines}</h3>
+        <h1>Restaurant Name: {name}</h1>
+        <p>Rating: {avgRating}</p>
+        <h2>Cost for Two: {costForTwoMessage}</h2>
+        <h3>Location: {areaName}</h3>
+        <h3>Delivery Time: {sla?.deliveryTime}</h3>
+        <h3>Cuisines: {cuisines}</h3>
         <h3>Deals for you: {}</h3>
       </div>
     </div>
