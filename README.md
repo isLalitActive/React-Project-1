@@ -12,7 +12,7 @@
     3. useRouteError
     4. <Link />
 
-# Types of Routing in Web Apps
+# Types of Routing in Web Apps 
     - client side routing 
     - server side routing 
 
@@ -21,4 +21,10 @@
 # Interview Questions
 1. What is empty argument, [] and [someValue] in useEffect(callback, []) ?
 2. What you have been using for middleware ?
+3. How to make collapsing menu in html/css ?
+4. How to make a toggle in html/css ?
+5. whats the use of super(props) in class based component ?
+6. What is the use of useParams() "param = parameters" hook ?
+7. 
+
 
