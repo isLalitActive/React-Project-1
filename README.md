@@ -25,6 +25,7 @@
 4. How to make a toggle in html/css ?
 5. whats the use of super(props) in class based component ?
 6. What is the use of useParams() "param = parameters" hook ?
-7. 
+7. Are you ware of Saas CSS framework ?
+8. Why are you using Tailwind CSS ?
 
 
