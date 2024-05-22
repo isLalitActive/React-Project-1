@@ -27,5 +27,6 @@
 6. What is the use of useParams() "param = parameters" hook ?
 7. Are you ware of Saas CSS framework ?
 8. Why are you using Tailwind CSS ?
+9. What is the use of useMemo() ?
 
 

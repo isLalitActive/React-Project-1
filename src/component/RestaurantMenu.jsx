@@ -1,53 +1,30 @@
-import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
-import { REST_MENU } from "../utilities/constant";
 import { useParams } from "react-router-dom";
+import useRestaurantMenuAPI from "../utilities/useRestaurantMenuAPI";
 
 const RestaurantMenu = () => {
-  const [resMenu, setResMenu] = useState(null);
-  const [resMenuItems, setResMenuItems] = useState([]);
-
-  const restaurantId = useParams();
-  console.log(restaurantId);
-
-  useEffect(() => {
-    fetchData();
-  }, []); // remove the empty array and see how useEffect works with console data
-
-  const fetchData = async () => {
-    const response = await fetch(REST_MENU + restaurantId);
-    const json = await response.json();
-    console.log(json?.data?.cards[2]?.card?.card?.info);
-    setResMenu(json?.data?.cards[2]?.card?.card.info);
-
-    console.log(
-      json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card
-        ?.card?.itemCards
-    );
-    setResMenuItems(
-      json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card
-        ?.card?.itemCards
-    );
-  };
+  const { id } = useParams();
+  const resMenu = useRestaurantMenuAPI(id);
 
   if (resMenu === null) return <Shimmer />;
 
-  const { name, avgRating, costForTwoMessage, areaName, sla, cuisines } =
-    resMenu;
+  const { name } = resMenu?.data?.cards[2]?.card?.card?.info ?? {};
+
+  console.log(
+    resMenu?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
+      ?.card?.carousel
+  );
+  const menuItems =
+    resMenu?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
+      ?.card?.carousel ?? [];
 
   return (
     <div className="restaurantMenu-container-wrapper">
       <div className="restaurantMenu-container">
-        <h1>Restaurant Name: {name}</h1>
-        <p>Rating: {avgRating}</p>
-        <h2>Cost for Two: {costForTwoMessage}</h2>
-        <h3>Location: {areaName}</h3>
-        <h3>Delivery Time: {sla?.deliveryTime}</h3>
-        <h3>Cuisines: {cuisines}</h3>
-        <h3>Recommended Items</h3>
+        <h2>Restaurant Name: {name}</h2>
         <ul>
-          {resMenuItems.map((items) => {
-            return <li>{items.card.info.name}</li>;
+          {menuItems.map((items) => {
+            return <li key={items.bannerId}>{items.title}</li>;
           })}
         </ul>
       </div>
