@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utilities/useOnlineStatus";
 
 const Header = () => {
   const [btnLabel, setBtnLabel] = useState("Login");
+  const internetStatus = useOnlineStatus();
+
   return (
     <div className="header-container">
       <div className="logo-container">
@@ -13,6 +16,7 @@ const Header = () => {
       </div>
       <div className="nav-container">
         <ul>
+          <li>Online Status: {internetStatus ? 'Online': 'Offline'}</li>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="Contact">Contact</Link></li>

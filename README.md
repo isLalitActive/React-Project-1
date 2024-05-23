@@ -28,5 +28,6 @@
 7. Are you ware of Saas CSS framework ?
 8. Why are you using Tailwind CSS ?
 9. What is the use of useMemo() ?
+10. What is chunking / code splitting / dynamic building / lazy loading / on demand loading ?
 
 
