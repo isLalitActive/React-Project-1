@@ -29,14 +29,14 @@ const Body = () => {
       <div className="search-container">
         <input
           type="text"
-          className="search-input"
+          className="border border-solid border-black px-4 py-1 rounded-md"
           value={searchItem}
           onChange={(e) => {
             setSearchItem(e.target.value);
           }}
         ></input>
         <button
-          className="search-btn"
+          className="px-4 py-1.5 bg-neutral-200 m-4 rounded-md hover:bg-neutral-300"
           onClick={() => {
             const filtered = resListDetails.filter((item) => {
               return item.info.name
@@ -48,20 +48,21 @@ const Body = () => {
         >
           Search
         </button>
+        <button
+          className="px-4 py-1.5 bg-blue-200 rounded-md hover:bg-blue-300"
+          onClick={() => {
+            const filteredRes = resListDetails.filter((eachRestaurant) => {
+              return eachRestaurant.info.avgRating > 4.3;
+            });
+            setResListDetails(filteredRes);
+          }}
+        >
+          Top Rated Restaurants
+        </button>
       </div>
-      <button
-        className="filter-btn"
-        onClick={() => {
-          const filteredRes = resListDetails.filter((eachRestaurant) => {
-            return eachRestaurant.info.avgRating > 4.3;
-          });
-          setResListDetails(filteredRes);
-        }}
-      >
-        Filter
-      </button>
+
       {resListDetails.length === 0 ? <Shimmer /> : null}
-      <div className="res-container">
+      <div className="res-container flex flex-wrap">
         {resListDetails.map((restaurant) => (
           <Link
             key={restaurant?.info?.id}

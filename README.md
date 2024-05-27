@@ -30,5 +30,9 @@
 9. What is the use of useMemo() ?
 10. What is chunking / code splitting / dynamic building / lazy loading / on demand loading ?
 11. what is the difference between padding and margin ?
+12. What is hoisting ?
+13. What is the difference between async and await ?
+14. Difference between flex and grid ?
+15. What is call and bind method in javascript ?
 
 

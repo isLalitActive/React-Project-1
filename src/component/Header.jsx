@@ -7,20 +7,20 @@ const Header = () => {
   const internetStatus = useOnlineStatus();
 
   return (
-    <div className="header-container">
+    <div className="flex justify-between bg-gray-200 shadow-xl m-2">
       <div className="logo-container">
         <img
-          className="logo"
+          className="w-52"
           src="https://www.nrn.com/sites/nrn.com/files/styles/article_featured_retina/public/plant-based%20protein.jpg?itok=aDfgI_8Z"
         />
       </div>
-      <div className="nav-container">
-        <ul>
-          <li>Online Status: {internetStatus ? 'Online': 'Offline'}</li>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="Contact">Contact</Link></li>
-          <li>Basket</li>
+      <div className="flex items-center">
+        <ul className="flex p-4 m-6">
+          <li className="px-4">Status: {internetStatus ? 'Online': 'Offline'}  |</li>
+          <li className="px-4"><Link to="/">Home</Link></li>
+          <li className="px-4"><Link to="/about">About</Link></li>
+          <li className="px-4"><Link to="Contact">Contact</Link></li>
+          <li className="px-4">Basket</li>
           <li>
             <button
               className="login-btn"
