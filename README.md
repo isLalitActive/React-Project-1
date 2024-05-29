@@ -34,5 +34,7 @@
 13. What is the difference between async and await ?
 14. Difference between flex and grid ?
 15. What is call and bind method in javascript ?
+16. What is absolute in CSS ?
+17. What is redux-thunk and redux-saga ?
 
 

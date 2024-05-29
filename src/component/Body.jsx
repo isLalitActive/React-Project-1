@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withLabelRestaurantCard } from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -23,6 +23,8 @@ const Body = () => {
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+
+  const PromotedRestaurantCard = withLabelRestaurantCard(RestaurantCard);
 
   return (
     <div className="body-container">
@@ -68,7 +70,11 @@ const Body = () => {
             key={restaurant?.info?.id}
             to={"/restaurant-menu/" + restaurant?.info?.id}
           >
-            <RestaurantCard resDetails={restaurant} />
+            {restaurant?.info?.isOpen ? (
+              <PromotedRestaurantCard resDetails={restaurant} />
+            ) : (
+              <RestaurantCard resDetails={restaurant} />
+            )}
           </Link>
         ))}
       </div>
