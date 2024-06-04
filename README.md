@@ -36,5 +36,9 @@
 15. What is call and bind method in javascript ?
 16. What is absolute in CSS ?
 17. What is redux-thunk and redux-saga ?
+18. What do you understand by lifting the state up ?
+19. What is controlled and uncontrolled components ?
+20. What is props drilling ?
+21. What's the use of createContext, useContext and ContextProvider ?
 
 
