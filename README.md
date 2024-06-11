@@ -16,6 +16,14 @@
     - client side routing 
     - server side routing 
 
+# Redux ToolKit
+    1. Install @redux/toolkit and react-redux
+    2. Build our store
+    3. Connect out store to the app
+    4. Slice
+    5. dispatch(action)
+    6. Selector
+
 
 
 # Interview Questions
@@ -40,5 +48,12 @@
 19. What is controlled and uncontrolled components ?
 20. What is props drilling ?
 21. What's the use of createContext, useContext and ContextProvider ?
+22. Can we have multiple ContextName.Provider ?
+23. What is the use of useCallback() ?
+24. What is shalow and deep copying ? 
+25. How do you use loadash ?
+26. Build a small component using GraphQL
+27. Build a small component using redux-thunk
+28. what is webpack ?
 
 

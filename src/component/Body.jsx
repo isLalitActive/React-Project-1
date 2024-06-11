@@ -1,11 +1,14 @@
 import RestaurantCard, { withLabelRestaurantCard } from "./RestaurantCard";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import UserContext from "../utilities/UserContext";
 
 const Body = () => {
   const [resListDetails, setResListDetails] = useState([]);
   const [searchItem, setSearchItem] = useState("");
+
+  const { setUserName } = useContext(UserContext);
 
   useEffect(() => {
     fetchData();
@@ -25,6 +28,10 @@ const Body = () => {
   };
 
   const PromotedRestaurantCard = withLabelRestaurantCard(RestaurantCard);
+
+  const handleOnChange = (e) => {
+    setUserName(e.target.value);
+  };
 
   return (
     <div className="body-container">
@@ -61,6 +68,12 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        <input
+          type="text"
+          className="border border-solid border-black px-4 py-1 mx-4 rounded-md"
+          placeholder="Type your username"
+          onChange={handleOnChange}
+        />
       </div>
 
       {resListDetails.length === 0 ? <Shimmer /> : null}
