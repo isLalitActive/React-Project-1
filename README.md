@@ -24,6 +24,20 @@
     5. dispatch(action)
     6. Selector
 
+# Types of Testing
+    1. Unit Testing
+    2. Integration Testing
+    3. End2End Testing
+
+# Setup Testing Environment
+    1. Install React Testing Library
+    2. Install Jest
+    3. Install babel
+    4. Configure Babel
+    5. Configure Parcel config file to disable default babel transpilation 
+    6. Jest: npx jest --init
+    7. Install jsdom library 
+
 
 
 # Interview Questions
@@ -64,5 +78,5 @@
 35. Explain me React Lifecycle.
 36. What is Reconciliation in React ?
 37. What is React Fiber ?
-
+38. What iss React Query ?
 
