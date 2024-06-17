@@ -55,5 +55,14 @@
 26. Build a small component using GraphQL
 27. Build a small component using redux-thunk
 28. what is webpack ?
+29. What is React Fiber ?
+30. What is the difference between reducer and reducers ?
+31. How JSX is being read by the browser ?
+32. What is Redux RTK query ?
+33. How do you destroy an component after being used in React or cleanup in React ?
+34. What is the difference between setTimeout and setInterval ?
+35. Explain me React Lifecycle.
+36. What is Reconciliation in React ?
+37. What is React Fiber ?
 
 
